@@ -1,0 +1,23 @@
+{
+  "name": "node-express-cloud-functions",
+  "version": "1.0.0",
+  "description": "Node Express deployed with Google Cloud Functions using Zeet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeet-demo/node-express-cloud-functions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zeet-demo/node-express-cloud-functions/issues"
+  },
+  "homepage": "https://github.com/zeet-demo/node-express-cloud-functions#readme",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "serverless-google-cloudfunctions": "^4.2.0"
+  }
+}

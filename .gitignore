@@ -1,28 +1,6 @@
-tmp/
-*.gzip
-config.toml
-vendor/*
-vendor.orig/*
-.idea
-public/images/signature/*.png
-logs/*.txt
-*.exe
-*.exe~
-projectFilesBackup
-fdvdv.png
-pages/test/
-buildOutput/
-engine/*.castro
-public/images/offer-images/*.png
-extensions/*
-!extensions/.gitkeep
-public/images/guild-images/*
-!public/images/guild-images/default-guild-logo.png
-public/images/outfits/*.png
-public/ckeditor/images/*.png
-!public/ckeditor/images/.gitkeep
-i18n/*.i18n
-tls
-*.swp
-*~
-castro
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless

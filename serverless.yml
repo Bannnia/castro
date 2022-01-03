@@ -1,0 +1,15 @@
+service: node-express-cloud-functions
+
+provider:
+  name: google
+  runtime: nodejs14
+  project: ${env:ZEET_GCP_PROJECT_ID}
+
+plugins:
+  - serverless-google-cloudfunctions
+
+functions:
+  hello:
+    handler: handler
+    events:
+      - http: path
